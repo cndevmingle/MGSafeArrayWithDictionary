@@ -35,12 +35,12 @@ Pod::Spec.new do |s|
   # s.source_files  = "MGSafeArrayWithDictionary/**/*.{h,m}"
 
   s.subspec 'MGSafeArray' do |ss|
-  	ss.source_files  = 'MGSafeArrayWithDictionary/MGSafeArray/**/*'
+  	ss.source_files  = 'Demo/MGSafeArrayWithDictionary/MGSafeArray/**/*'
   	ss.frameworks	= 'Foundation'
   end
 
   s.subspec 'MGSafeDictionary' do |ss|
-  	ss.source_files  = 'MGSafeArrayWithDictionary/MGSafeDictionary/**/*'
+  	ss.source_files  = 'Demo/MGSafeArrayWithDictionary/MGSafeDictionary/**/*'
   	ss.frameworks	= 'Foundation'
   end
 
