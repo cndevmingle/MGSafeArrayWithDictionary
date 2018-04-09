@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "Apache License, Version 2.0"
+  # s.license      = "Apache License, Version 2.0"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/cndevmingle/MGSafeArrayWithDictionary.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/cndevmingle/MGSafeArrayWithDictionary.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MGSafeArrayWithDictionary/**/*.{h,m}"
+  # s.source_files  = "MGSafeArrayWithDictionary/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -136,12 +136,12 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
   s.subspec 'MGSafeArray' do |ss|
-  	ss.source_files  = "MGSafeArrayWithDictionary/MGSafeArray/**/*.{h,m}"
+  	ss.source_files  = "MGSafeArrayWithDictionary/MGSafeArray/**/*"
   	ss.frameworks	= "Foundation"
   end
 
   s.subspec 'MGSafeDictionary' do |ss|
-  	ss.source_files  = "MGSafeArrayWithDictionary/MGSafeDictionary/**/*.{h,m}"
+  	ss.source_files  = "MGSafeArrayWithDictionary/MGSafeDictionary/**/*"
   	ss.frameworks	= "Foundation"
   end
 
