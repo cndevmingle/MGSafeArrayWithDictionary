@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82640FF02081A1BF00C2C5E2 /* NSString+MGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 82640FEF2081A1BF00C2C5E2 /* NSString+MGSafe.m */; };
 		8284F357207B042C0073912C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8284F356207B042C0073912C /* AppDelegate.m */; };
 		8284F35A207B042C0073912C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8284F359207B042C0073912C /* ViewController.m */; };
 		8284F35D207B042C0073912C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8284F35B207B042C0073912C /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82640FEE2081A1BF00C2C5E2 /* NSString+MGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MGSafe.h"; sourceTree = "<group>"; };
+		82640FEF2081A1BF00C2C5E2 /* NSString+MGSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MGSafe.m"; sourceTree = "<group>"; };
 		8284F352207B042C0073912C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8284F355207B042C0073912C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8284F356207B042C0073912C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82640FED2081A0D800C2C5E2 /* MGSafeString */ = {
+			isa = PBXGroup;
+			children = (
+				82640FEE2081A1BF00C2C5E2 /* NSString+MGSafe.h */,
+				82640FEF2081A1BF00C2C5E2 /* NSString+MGSafe.m */,
+			);
+			path = MGSafeString;
+			sourceTree = "<group>";
+		};
 		8284F349207B042C0073912C = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 		8284F379207B1AE70073912C /* MGSafeArrayWithDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				82640FED2081A0D800C2C5E2 /* MGSafeString */,
 				8284F37A207B1AE70073912C /* MGSafeArray */,
 				8284F37F207B1AE70073912C /* MGSafeDictionary */,
 			);
@@ -187,6 +200,7 @@
 			files = (
 				8284F387207B1AE70073912C /* NSDictionary+MGSafe.m in Sources */,
 				8284F35A207B042C0073912C /* ViewController.m in Sources */,
+				82640FF02081A1BF00C2C5E2 /* NSString+MGSafe.m in Sources */,
 				8284F385207B1AE70073912C /* NSArray+MGSafe.m in Sources */,
 				8284F386207B1AE70073912C /* NSMutableDictionary+MGSafe.m in Sources */,
 				8284F365207B042E0073912C /* main.m in Sources */,

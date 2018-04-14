@@ -17,9 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSString *str = nil;
+//    NSString *str = nil;
 //    NSArray *test = @[@"a", @"b", str, @"c"];//[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]'
-    NSArray *test = [NSArray arrayWithObjects:@"a",str,@"b",nil];//[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[0]'
+//    NSArray *test = [NSArray arrayWithObjects:@"a",str,@"b",nil];//[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[0]'
 //    NSMutableArray *test = [NSMutableArray arrayWithObjects:@"a", str, @"b", nil];
 //    [test addObject:@"b"];
 //    [test addObject:str];
@@ -28,7 +28,9 @@
 //    NSMutableDictionary *test = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"v1", @"k1", str, @"k2", nil];
 //    [test setObject:@"v2" forKey:@"k2"];
 //    [test setObject:@"v3" forKey:str];
-    NSLog(@"%@", test);
+//    NSLog(@"%@", test);
+    NSDictionary *test = @"";
+    NSLog(@"%@", @([test count]));
     return YES;
 }
 

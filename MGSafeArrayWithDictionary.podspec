@@ -44,4 +44,9 @@ Pod::Spec.new do |s|
   	ss.frameworks	= 'Foundation'
   end
 
+  s.subspec 'MGSafeString' do |ss|
+  	ss.source_files  = 'Demo/MGSafeArrayWithDictionary/MGSafeString/**/*'
+  	ss.frameworks	= 'Foundation'
+  end
+
 end
