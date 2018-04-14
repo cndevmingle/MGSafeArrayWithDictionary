@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MGSafeArrayWithDictionary"
-  s.version      = "0.0.1"
-  s.summary      = "便捷的使用Array和Dictionary，防止插入nil崩溃."
+  s.version      = "0.0.2"
+  s.summary      = "便捷的使用Array和Dictionary，防止插入nil崩溃.安全访问NSString，主要防止服务器返回Array或者Dictionary的地方错误返回字符串。"
 
   s.description  = <<-DESC
-  					便捷的使用Array和Dictionary，防止插入nil崩溃.
+  					便捷便捷的使用Array和Dictionary，防止插入nil崩溃.安全访问NSString，主要防止服务器返回Array或者Dictionary的地方错误返回字符串。
                    DESC
 
   s.homepage     = "https://github.com/cndevmingle/MGSafeArrayWithDictionary"
